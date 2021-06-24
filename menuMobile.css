@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------------------------menu toggle--------------------*/
+
+.menuMobile {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    padding: 50px;
+    transition: all 800ms ease;
+}
+
+.botaoMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.menuMobile.aberto {
+    left: 0;
+}
+
+
+/*------------------------menu flag--------------------*/
+
+.menuMobile2 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 150px;
+    height: 100vh;
+    background-color: red;
+    color: #fff;
+    padding: 50px;
+    transition: all 800ms ease;
+}
+
+.setupButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.menuMobile2.aberto {
+    left: 0;
+}
